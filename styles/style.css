@@ -282,7 +282,7 @@ span {
     padding-right: 32px;
     padding-bottom: 10px;
     display: grid;
-    width: 472px;
+    width: 100%;
     height: 422px;
     border-radius: 16px;
     border: 1px solid #FF5400;
@@ -323,6 +323,51 @@ span {
     height: 422px;
     flex-shrink: 0;
 }
+
+/* FOOTER STYLE */
+.footer {
+    text-align: center;
+    margin-top: 35px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 1245px;
+    height: 502px;
+
+}
+
+.footer-headline {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-heading-img {
+    width: 40px;
+    height: 46.673px;
+    margin-top: 17px;
+    margin-left: 440px;
+}
+
+.last-para {
+    gap: 25px;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 100px;
+
+}
+
+br {
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.social-links {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
 
 /* style for phone */
 @media screen and (max-width:600px) {
@@ -466,6 +511,24 @@ span {
         height: 300px;
         flex-shrink: 0;
         padding-left: 8px;
+    }
+
+    /* footer style */
+    .footer {
+        margin-top: 50px;
+        width: 420px;
+        height: 350px;
+    }
+
+    .footer-heading-img {
+        margin-left: 90px;
+    }
+    .social-links{
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .last-para{
+        margin-top: 0px;
     }
 
 }
