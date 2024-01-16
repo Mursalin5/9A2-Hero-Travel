@@ -269,6 +269,60 @@ span {
     margin-top: 10px;
 }
 
+/* "section-container-last" */
+.section-container-last {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+.last-contant {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    display: grid;
+    width: 472px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    background: #FFF;
+}
+
+.last-contant input {
+    width: 390px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.btn-last {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+
+.newsletter {
+    margin-top: 5px;
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+
+
+}
+
+.last-img {
+    padding-left: 15px;
+    width: 622px;
+    height: 422px;
+    flex-shrink: 0;
+}
 
 /* style for phone */
 @media screen and (max-width:600px) {
@@ -364,19 +418,54 @@ span {
     .image3-2 {
         width: 200%;
     }
-    .section-container2-1{
+
+    .section-container2-1 {
         display: block;
         margin-left: 5px;
     }
-    .hotel{
+
+    .hotel {
         width: 100%;
     }
-    .map{
+
+    .map {
         width: 100%;
         margin-left: 0;
         margin-top: 20px;
     }
-    .section-container2-2{
+
+    .section-container2-2 {
         width: 100%;
     }
+
+    .section-container-last {
+        display: block;
+    }
+
+    .last-contant {
+        width: 335px;
+        height: 353px;
+        flex-shrink: 0;
+    }
+
+    .last-contant input {
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .btn-last {
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .last-img {
+        margin-top: 15px;
+        width: 360px;
+        height: 300px;
+        flex-shrink: 0;
+        padding-left: 8px;
+    }
+
 }
